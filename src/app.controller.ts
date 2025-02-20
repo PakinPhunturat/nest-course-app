@@ -21,12 +21,17 @@ export class AppController {
   }
 
   @Get('/showJSON')
-  getJSON(){
+  getJSON() {
     return this.appService.getJSON();
   }
 
   @Get('/testgit')
   testGIT(): string {
     return this.appService.testGIT();
+  }
+
+  @Get('/Testpm')
+  testPM(): string {
+    return this.appService.testPM();
   }
 }

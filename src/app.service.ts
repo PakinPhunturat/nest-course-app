@@ -13,9 +13,9 @@ export class AppService {
   getInfo(): string {
     return 'Hello, I am Pakin Phunturat, 18 Years old';
   }
-  
-  getJSON(){
-    return{
+
+  getJSON() {
+    return {
       name: 'Pakin',
       lastname: 'Phunturat',
       age: 18,
@@ -24,5 +24,9 @@ export class AppService {
 
   testGIT(): string {
     return 'Git and GitHub using';
+  }
+
+  testPM(): string {
+    return 'We Use Postman';
   }
 }
